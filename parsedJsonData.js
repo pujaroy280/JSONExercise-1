@@ -39,7 +39,7 @@ Log the parsed data to the console.
 
 // Load the JS File System module to interact with the file system
 const fs = require('fs');
-// Read the file synchronously and store the data in the variable 'rawdata'
+// Read the file synchronously and store the data in the variable 'parsedData'
 const parsedData = fs.readFileSync('dummyData.json');
 // Use JSON.parse() to parse the JSON data into a JSON objects
 const jsonObj = JSON.parse(parsedData);
